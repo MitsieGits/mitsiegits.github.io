@@ -30,7 +30,7 @@
     .section__pic-container {
         width: 275px;
         height: 275px;
-        margin: 0 auto 2rem;
+        margin: auto 0;
     }
     .about-containers {
         margin-top: 0;
@@ -43,8 +43,8 @@
         height: 40vh;
     }
     #profile {
-        height: 60vh;
-        margin-bottom: 0;
+        height: 86vh;
+        margin-bottom: 6rem;
     }
     article {
         font-size: 1rem;
@@ -53,7 +53,7 @@
         height: fit-content;
         margin-bottom: 2rem;
     }
-    .about-container, .contact-info-upper-container, btn-container {
+    .about-container, .contact-info-upper-container, .btn-container {
         flex-wrap: wrap;
     }
     .contact-info-container {
@@ -74,8 +74,8 @@
         text-align: center;
     }
     .section__pic-container {
-        width: 100px;
-        height: 24vh;
+        width: 200px;
+        height: 200px;
         justify-content: center;
     }
     .section__text__p2 {
