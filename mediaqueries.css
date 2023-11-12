@@ -1,4 +1,4 @@
-@media screen and (max-width: 1400) {
+@media screen and (max-width: 1400px) {
     #profile {
         height: 86vh;
         margin-bottom: 6rem;
@@ -8,7 +8,7 @@
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
     #desktop-nav {
         display: none;
     }
@@ -37,13 +37,13 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     #contact,
     footer {
         height: 40vh;
     }
     #profile {
-        height: 83vh;
+        height: 60vh;
         margin-bottom: 0;
     }
     article {
@@ -74,8 +74,8 @@
         text-align: center;
     }
     .section__pic-container {
-        width: auto;
-        height: 48vw;
+        width: 100px;
+        height: 24vh;
         justify-content: center;
     }
     .section__text__p2 {
