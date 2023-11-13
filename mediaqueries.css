@@ -100,5 +100,11 @@
     .text-container {
       text-align: justify;
     }
+    
+    .menu-links.open {
+      max-height: 150px;
+    }
+}
   }
-  
+
+
