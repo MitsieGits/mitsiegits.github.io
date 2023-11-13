@@ -175,13 +175,15 @@ section {
   height: 80vh;
 }
 
+.profile-pic {
+  border-radius: 15rem;
+
 .section__pic-container {
   display: flex;
   height: 400px;
   width: 400px;
   margin: auto 0;
-  border-radius: 15rem;
-}
+ }
 
 .section__text {
   align-self: center;
