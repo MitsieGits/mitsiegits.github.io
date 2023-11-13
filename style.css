@@ -156,12 +156,6 @@ section {
   min-height: fit-content;
 }
 
-.arrow {
-  position: absolute;
-  right: -5rem;
-  bottom: 2.5rem;
-}
-
 .section-container {
   display: flex;
 }
@@ -173,6 +167,12 @@ section {
   justify-content: center;
   gap: 5rem;
   height: 80vh;
+}
+
+.arrow {
+  position: absolute;
+  right: -5rem;
+  bottom: 2.5rem;
 }
 
 .profile-pic {
@@ -294,7 +294,7 @@ section {
 }
 
 .about-pic {
-  border-radius: 6rem;
+  border-radius: 2rem;
 }
 
 .arrow {
