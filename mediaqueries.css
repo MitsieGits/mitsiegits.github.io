@@ -110,7 +110,7 @@
       padding: 10px;
       text-align: center;
       font-size: 0.75rem;
-      color: black;
+      color: var(--secondary-color);
       text-decoration: none;
       transition: all 0.3 ease-in-out;
     }
