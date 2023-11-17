@@ -214,6 +214,7 @@ section {
   justify-content: center;
   gap: 5rem;
   height: 80vh;
+  position: relative;
 }
 
 .section__pic-container {
@@ -227,11 +228,11 @@ section {
   border-radius: 15rem;
 }
 
-.arrow {
+/* .arrow {
   position: absolute;
   right: -5rem;
   bottom: 2.5rem;
-}
+} */
 
 .section__text {
   align-self: center;
@@ -353,6 +354,13 @@ section {
   bottom: 2.5rem;
 }
 
+.arrow_180 {
+  transform: rotate(0.5turn);
+  position: absolute;
+  right: -5rem;
+  bottom: 2.5rem;
+}
+
 .details-container {
   padding: 1.5rem;
   flex: 1;
@@ -443,6 +451,7 @@ article .icon {
 /* CONTACT */
 
 #contact {
+  position: relative;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -485,6 +494,7 @@ article .icon {
 footer {
   height: 26vh;
   margin: 0 1rem;
+  position: relative;
 }
 
 footer p {

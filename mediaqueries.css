@@ -30,6 +30,9 @@
     .arrow {
       display: none;
     }
+    .arrow_180 {
+      display: none;
+    }
     section,
     .section-container {
       height: fit-content;
