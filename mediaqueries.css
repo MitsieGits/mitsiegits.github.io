@@ -105,14 +105,14 @@
     }
     
     .menu-links.open {
-      max-height: 200px;
+      max-height: 250px;
     }
 
     .menu-links a {
       display: block;
       padding: 10px;
       text-align: center;
-      font-size: 0.75rem;
+      font-size: 0. 85rem;
       color: var(--secondary-color);
       text-decoration: none;
       transition: all 0.3 ease-in-out;
