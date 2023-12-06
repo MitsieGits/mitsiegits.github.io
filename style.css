@@ -168,6 +168,7 @@ nav a:hover {
 .menu-links.open {
   max-height: 300px;
   z-index: 1000;
+  float: none;
 }
 
 .hamburger-icon.open span:first-child {
